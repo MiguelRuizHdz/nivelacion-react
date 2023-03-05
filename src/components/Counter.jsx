@@ -1,7 +1,11 @@
+import { useState } from 'react';
 
 
 const Counter = () => {
-    return <h1>Counter: 10</h1>
+
+    const [counter, setCounter] = useState(5); // [estado, cambioEstado() ]
+
+    return <h1>Counter: { counter }</h1>
 }
 
 
