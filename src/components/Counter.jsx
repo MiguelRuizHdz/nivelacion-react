@@ -12,7 +12,10 @@ const Counter = () => {
     return (
         <div>
             <h1>Counter: { counter }</h1>
-            <button onClick={ handleClick }>Add</button>
+            <button style={{
+                padding: "1rem",
+                backgroundColor: "#723763",
+            }} onClick={ handleClick }>Add</button>
         </div>
     )
 }
