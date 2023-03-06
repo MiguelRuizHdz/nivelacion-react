@@ -6,7 +6,7 @@ const Counter = () => {
     const [counter, setCounter] = useState(5); // [estado, cambioEstado() ]
 
     const handleClick = () => {
-        console.log("Handle Click");
+        setCounter(counter + 1);
     }
 
     return (
