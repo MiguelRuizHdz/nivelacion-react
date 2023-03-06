@@ -1,7 +1,9 @@
 import Counter from './components/Counter'
-
+import './App.css'
 const App = () => {
-  return <Counter/>
+  return <div className='card'>
+    <Counter/>
+  </div>
 }
 
 export default App

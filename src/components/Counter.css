@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+  place-items: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    font-size: 2rem;
+    cursor: pointer;
+}
